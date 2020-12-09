@@ -3,7 +3,7 @@
 **简要描述：**
 
 - mybatis generator插件生成mapper时自动加入lombok注解，并生成model中字段注释
-- 可以加入lombok中的@Getter、@Setter、@Builder(toBuilder=true)、@AllArgsConstructor、@NoArgsConstructor、@ToString注解
+- 在model中自动生成@Getter、@Setter、@Builder(toBuilder=true)、@AllArgsConstructor、@NoArgsConstructor、@ToString等lombok注解
 
 **第一步：**
 - `pom文件中引入maven配置 `
